@@ -1,0 +1,97 @@
+[
+  {
+    "title": "Blade Runner",
+    "release_year": 1982,
+    "release_date": "1982-06-25",
+    "director": "Ridley Scott",
+    "runtime_min": 117,
+    "genres": ["science fiction", "neo-noir", "thriller"],
+    "countries": ["United States", "United Kingdom"],
+    "languages": ["English"],
+    "box_office_usd": 41791617,
+    "cast": [
+      { "actor": "Harrison Ford", "role": "Rick Deckard" },
+      { "actor": "Rutger Hauer", "role": "Roy Batty" },
+      { "actor": "Sean Young", "role": "Rachael" }
+    ],
+    "soundtrack_by": "Vangelis",
+    "awards": { "oscars": 0, "bafta": 3 },
+    "ratings": { "imdb": 8.1, "metacritic": 84 }
+  },
+  {
+    "title": "Back to the Future",
+    "release_year": 1985,
+    "release_date": "1985-07-03",
+    "director": "Robert Zemeckis",
+    "runtime_min": 116,
+    "genres": ["science fiction", "adventure", "comedy"],
+    "countries": ["United States"],
+    "languages": ["English"],
+    "box_office_usd": 381109762,
+    "cast": [
+      { "actor": "Michael J. Fox", "role": "Marty McFly" },
+      { "actor": "Christopher Lloyd", "role": "Emmett Brown" },
+      { "actor": "Lea Thompson", "role": "Lorraine Baines" }
+    ],
+    "soundtrack_by": "Alan Silvestri",
+    "awards": { "oscars": 1, "bafta": 0 },
+    "ratings": { "imdb": 8.5, "metacritic": 87 }
+  },
+  {
+    "title": "Aliens",
+    "release_year": 1986,
+    "release_date": "1986-07-18",
+    "director": "James Cameron",
+    "runtime_min": 137,
+    "genres": ["science fiction", "action", "thriller"],
+    "countries": ["United States", "United Kingdom"],
+    "languages": ["English"],
+    "box_office_usd": 183316455,
+    "cast": [
+      { "actor": "Sigourney Weaver", "role": "Ellen Ripley" },
+      { "actor": "Michael Biehn", "role": "Dwayne Hicks" },
+      { "actor": "Lance Henriksen", "role": "Bishop" }
+    ],
+    "soundtrack_by": "James Horner",
+    "awards": { "oscars": 2, "bafta": 0 },
+    "ratings": { "imdb": 8.4, "metacritic": 84 }
+  },
+  {
+    "title": "Cinema Paradiso",
+    "release_year": 1988,
+    "release_date": "1988-11-17",
+    "director": "Giuseppe Tornatore",
+    "runtime_min": 124,
+    "genres": ["drama"],
+    "countries": ["Italy", "France"],
+    "languages": ["Italian"],
+    "box_office_usd": 12400000,
+    "cast": [
+      { "actor": "Philippe Noiret", "role": "Alfredo" },
+      { "actor": "Salvatore Cascio", "role": "Salvatore Di Vita (child)" },
+      { "actor": "Jacques Perrin", "role": "Salvatore Di Vita (adult)" }
+    ],
+    "soundtrack_by": "Ennio Morricone",
+    "awards": { "oscars": 1, "bafta": 5 },
+    "ratings": { "imdb": 8.5, "metacritic": 80 }
+  },
+  {
+    "title": "Akira",
+    "release_year": 1988,
+    "release_date": "1988-07-16",
+    "director": "Katsuhiro Otomo",
+    "runtime_min": 124,
+    "genres": ["animation", "science fiction", "cyberpunk"],
+    "countries": ["Japan"],
+    "languages": ["Japanese"],
+    "box_office_usd": 49600000,
+    "cast": [
+      { "actor": "Mitsuo Iwata", "role": "Shotaro Kaneda" },
+      { "actor": "Nozomu Sasaki", "role": "Tetsuo Shima" },
+      { "actor": "Mami Koyama", "role": "Kei" }
+    ],
+    "soundtrack_by": "Shoji Yamashiro",
+    "awards": { "oscars": 0, "bafta": 0 },
+    "ratings": { "imdb": 8.0, "metacritic": 75 }
+  }
+]

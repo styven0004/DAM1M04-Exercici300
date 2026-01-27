@@ -1,0 +1,120 @@
+[
+  {
+    "name": "Mercury",
+    "type": "planet",
+    "orbit": {
+      "around": "Sun",
+      "semi_major_axis_au": 0.3871,
+      "orbital_period_days": 87.97
+    },
+    "physical": {
+      "mean_radius_km": 2439.7,
+      "mass_kg": 3.3011e23,
+      "gravity_m_s2": 3.7
+    },
+    "atmosphere": ["Oxygen", "Sodium", "Hydrogen", "Helium"],
+    "satellites": [],
+    "discovery": { "discovered_by": "Ancient observations" }
+  },
+  {
+    "name": "Earth",
+    "type": "planet",
+    "orbit": {
+      "around": "Sun",
+      "semi_major_axis_au": 1.0,
+      "orbital_period_days": 365.256
+    },
+    "physical": {
+      "mean_radius_km": 6371.0,
+      "mass_kg": 5.97237e24,
+      "gravity_m_s2": 9.807
+    },
+    "atmosphere": ["Nitrogen", "Oxygen", "Argon", "Carbon dioxide"],
+    "satellites": [
+      { "name": "Moon", "type": "natural satellite", "mean_radius_km": 1737.4, "discovery": "Prehistory" }
+    ],
+    "discovery": { "discovered_by": "Ancient observations" }
+  },
+  {
+    "name": "Mars",
+    "type": "planet",
+    "orbit": {
+      "around": "Sun",
+      "semi_major_axis_au": 1.5237,
+      "orbital_period_days": 686.98
+    },
+    "physical": {
+      "mean_radius_km": 3389.5,
+      "mass_kg": 6.4171e23,
+      "gravity_m_s2": 3.71
+    },
+    "atmosphere": ["Carbon dioxide", "Nitrogen", "Argon"],
+    "satellites": [
+      { "name": "Phobos", "type": "natural satellite", "mean_radius_km": 11.3, "discovery": "Asaph Hall 1877" },
+      { "name": "Deimos", "type": "natural satellite", "mean_radius_km": 6.2, "discovery": "Asaph Hall 1877" }
+    ],
+    "discovery": { "discovered_by": "Ancient observations" }
+  },
+  {
+    "name": "Jupiter",
+    "type": "planet",
+    "orbit": {
+      "around": "Sun",
+      "semi_major_axis_au": 5.2044,
+      "orbital_period_days": 4332.59
+    },
+    "physical": {
+      "mean_radius_km": 69911,
+      "mass_kg": 1.8982e27,
+      "gravity_m_s2": 24.79
+    },
+    "atmosphere": ["Hydrogen", "Helium", "Methane", "Ammonia"],
+    "satellites": [
+      { "name": "Io", "type": "Galilean moon", "mean_radius_km": 1821.6, "discovery": "Galileo Galilei 1610" },
+      { "name": "Europa", "type": "Galilean moon", "mean_radius_km": 1560.8, "discovery": "Galileo Galilei 1610" },
+      { "name": "Ganymede", "type": "Galilean moon", "mean_radius_km": 2634.1, "discovery": "Galileo Galilei 1610" },
+      { "name": "Callisto", "type": "Galilean moon", "mean_radius_km": 2410.3, "discovery": "Galileo Galilei 1610" }
+    ],
+    "discovery": { "discovered_by": "Ancient observations" }
+  },
+  {
+    "name": "Saturn",
+    "type": "planet",
+    "orbit": {
+      "around": "Sun",
+      "semi_major_axis_au": 9.5826,
+      "orbital_period_days": 10759
+    },
+    "physical": {
+      "mean_radius_km": 58232,
+      "mass_kg": 5.6834e26,
+      "gravity_m_s2": 10.44
+    },
+    "atmosphere": ["Hydrogen", "Helium", "Methane"],
+    "satellites": [
+      { "name": "Titan", "type": "major moon", "mean_radius_km": 2574.7, "discovery": "Christiaan Huygens 1655" },
+      { "name": "Enceladus", "type": "icy moon", "mean_radius_km": 252.1, "discovery": "William Herschel 1789" }
+    ],
+    "discovery": { "discovered_by": "Ancient observations" }
+  },
+  {
+    "name": "Neptune",
+    "type": "planet",
+    "orbit": {
+      "around": "Sun",
+      "semi_major_axis_au": 30.07,
+      "orbital_period_days": 60190
+    },
+    "physical": {
+      "mean_radius_km": 24622,
+      "mass_kg": 1.02413e26,
+      "gravity_m_s2": 11.15
+    },
+    "atmosphere": ["Hydrogen", "Helium", "Methane"],
+    "satellites": [
+      { "name": "Triton", "type": "major moon", "mean_radius_km": 1353.4, "discovery": "William Lassell 1846" },
+      { "name": "Proteus", "type": "irregular moon", "mean_radius_km": 210, "discovery": "Voyager 2 1989" }
+    ],
+    "discovery": { "discovered_by": "Johann Galle and Heinrich d'Arrest", "year": 1846 }
+  }
+]

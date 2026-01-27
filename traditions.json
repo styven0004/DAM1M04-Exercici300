@@ -1,0 +1,72 @@
+[
+  {
+    "name": "La Tomatina",
+    "country": "Spain",
+    "location": "Bunol, Valencia",
+    "time_of_year": { "month": "August", "multi_day": true },
+    "origins": { "century": 20, "background": "Started in 1940s as an impromptu food fight during a town parade." },
+    "themes": ["celebration", "community", "harvest"],
+    "activities": [
+      { "title": "Tomato fight", "description": "One-hour controlled tomato throwing in the town center." },
+      { "title": "Parade", "description": "Festive floats and music through the main streets before the main event." }
+    ],
+    "attendance_estimate": 20000,
+    "unesco_recognized": false
+  },
+  {
+    "name": "Up Helly Aa",
+    "country": "United Kingdom",
+    "location": "Lerwick, Shetland, Scotland",
+    "time_of_year": { "month": "January", "multi_day": true },
+    "origins": { "century": 19, "background": "Developed from Shetland Yule traditions and 19th-century torchlight processions." },
+    "themes": ["Viking heritage", "fire", "community"],
+    "activities": [
+      { "title": "Torchlight procession", "description": "Guizers march with flaming torches in Viking-inspired dress." },
+      { "title": "Galley burning", "description": "Replica Viking longship is burned at night with choral singing." }
+    ],
+    "attendance_estimate": 5000,
+    "unesco_recognized": false
+  },
+  {
+    "name": "Busojaras",
+    "country": "Hungary",
+    "location": "Mohacs, Southern Transdanubia",
+    "time_of_year": { "month": "February", "multi_day": true },
+    "origins": { "century": 18, "background": "Masked end-of-winter celebration with South Slavic roots." },
+    "themes": ["carnival", "winter farewell", "masks"],
+    "activities": [
+      { "title": "Mask carving", "description": "Locals wear wooden horned masks and sheepskin outfits." },
+      { "title": "Bonfire parade", "description": "Procession ends with a bonfire symbolizing the burning of winter." }
+    ],
+    "attendance_estimate": 60000,
+    "unesco_recognized": true
+  },
+  {
+    "name": "Midsummer (Juhannus)",
+    "country": "Finland",
+    "location": "Nationwide lakes and coastal areas",
+    "time_of_year": { "month": "June", "multi_day": true },
+    "origins": { "century": 14, "background": "Pre-Christian solstice rites blended with St. John the Baptist feast." },
+    "themes": ["light", "nature", "community"],
+    "activities": [
+      { "title": "Bonfires", "description": "Lakeside bonfires at midnight sun to celebrate the solstice." },
+      { "title": "Sauna and lake swims", "description": "Families combine sauna with cold-water plunges and gatherings." }
+    ],
+    "attendance_estimate": 2000000,
+    "unesco_recognized": false
+  },
+  {
+    "name": "Krampusnacht",
+    "country": "Austria",
+    "location": "Tyrol and Salzburg regions",
+    "time_of_year": { "month": "December", "multi_day": false },
+    "origins": { "century": 17, "background": "Alpine folk tradition pairing St. Nicholas with the Krampus figure." },
+    "themes": ["Advent", "folklore", "costume"],
+    "activities": [
+      { "title": "Krampuslauf", "description": "Costumed processions with bells and carved demonic masks." },
+      { "title": "House visits", "description": "St. Nicholas and Krampus visit homes to reward or frighten children." }
+    ],
+    "attendance_estimate": 30000,
+    "unesco_recognized": false
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "common_name": "African savanna elephant",
+    "scientific_name": "Loxodonta africana",
+    "conservation_status": "Vulnerable",
+    "average_mass_kg": 6000,
+    "max_speed_kmh": 40,
+    "social_structure": "Matriarch-led family groups",
+    "habitat": {
+      "biome": "Savanna and woodland",
+      "range_countries": ["Botswana", "Tanzania", "Kenya", "Zimbabwe", "Namibia"],
+      "protected_areas": ["Chobe National Park", "Serengeti National Park", "Kruger National Park"]
+    },
+    "diet": {
+      "type": "herbivore",
+      "primary_foods": ["grasses", "bark", "roots", "fruits"]
+    },
+    "population_estimate": { "value": "~415,000", "trend": "Decreasing" },
+    "threats": ["poaching for ivory", "habitat loss", "human-wildlife conflict"]
+  },
+  {
+    "common_name": "Lion",
+    "scientific_name": "Panthera leo",
+    "conservation_status": "Vulnerable",
+    "average_mass_kg": 190,
+    "max_speed_kmh": 80,
+    "social_structure": "Prides with related females and a coalition of males",
+    "habitat": {
+      "biome": "Savanna and open woodland",
+      "range_countries": ["Tanzania", "Kenya", "South Africa", "Botswana", "Zambia"],
+      "protected_areas": ["Serengeti National Park", "Masai Mara", "Kruger National Park"]
+    },
+    "diet": {
+      "type": "carnivore",
+      "primary_foods": ["zebra", "wildebeest", "buffalo", "antelope"]
+    },
+    "population_estimate": { "value": "~23,000", "trend": "Decreasing" },
+    "threats": ["habitat fragmentation", "retaliatory killings", "depletion of prey"]
+  },
+  {
+    "common_name": "Cheetah",
+    "scientific_name": "Acinonyx jubatus",
+    "conservation_status": "Vulnerable",
+    "average_mass_kg": 72,
+    "max_speed_kmh": 110,
+    "social_structure": "Solitary females, male coalitions",
+    "habitat": {
+      "biome": "Savanna and semi-arid grassland",
+      "range_countries": ["Namibia", "Botswana", "Kenya", "Tanzania"],
+      "protected_areas": ["Etosha National Park", "Kgalagadi Transfrontier Park"]
+    },
+    "diet": {
+      "type": "carnivore",
+      "primary_foods": ["gazelle", "impala", "hares"]
+    },
+    "population_estimate": { "value": "~7,100", "trend": "Decreasing" },
+    "threats": ["habitat loss", "human-wildlife conflict", "low genetic diversity"]
+  },
+  {
+    "common_name": "Maasai giraffe",
+    "scientific_name": "Giraffa camelopardalis tippelskirchi",
+    "conservation_status": "Endangered",
+    "average_mass_kg": 1100,
+    "max_speed_kmh": 60,
+    "social_structure": "Loose herds with fission-fusion dynamics",
+    "habitat": {
+      "biome": "Savanna and open woodland",
+      "range_countries": ["Tanzania", "Kenya"],
+      "protected_areas": ["Serengeti National Park", "Tsavo National Park"]
+    },
+    "diet": {
+      "type": "herbivore",
+      "primary_foods": ["acacia leaves", "shoots", "seed pods"]
+    },
+    "population_estimate": { "value": "~35,000", "trend": "Decreasing" },
+    "threats": ["poaching", "habitat conversion", "disease"]
+  },
+  {
+    "common_name": "Plains zebra",
+    "scientific_name": "Equus quagga",
+    "conservation_status": "Near Threatened",
+    "average_mass_kg": 320,
+    "max_speed_kmh": 65,
+    "social_structure": "Harems led by a stallion with associated bachelor groups",
+    "habitat": {
+      "biome": "Savanna and grassland",
+      "range_countries": ["Kenya", "Tanzania", "South Africa", "Botswana", "Zimbabwe"],
+      "protected_areas": ["Masai Mara", "Kruger National Park", "Hwange National Park"]
+    },
+    "diet": {
+      "type": "herbivore",
+      "primary_foods": ["grasses", "occasional leaves"]
+    },
+    "population_estimate": { "value": "~750,000", "trend": "Stable to decreasing" },
+    "threats": ["fencing and migration barriers", "hunting", "drought"]
+  },
+  {
+    "common_name": "African wild dog",
+    "scientific_name": "Lycaon pictus",
+    "conservation_status": "Endangered",
+    "average_mass_kg": 25,
+    "max_speed_kmh": 66,
+    "social_structure": "Packs with cooperative breeding",
+    "habitat": {
+      "biome": "Savanna and open woodland",
+      "range_countries": ["Botswana", "Zimbabwe", "Mozambique", "Tanzania"],
+      "protected_areas": ["Okavango Delta", "Selous Game Reserve"]
+    },
+    "diet": {
+      "type": "carnivore",
+      "primary_foods": ["impala", "wildebeest calves", "small antelope"]
+    },
+    "population_estimate": { "value": "~6,600", "trend": "Decreasing" },
+    "threats": ["canine diseases", "habitat fragmentation", "persecution"]
+  }
+]

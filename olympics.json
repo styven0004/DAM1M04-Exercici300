@@ -1,0 +1,104 @@
+[
+  {
+    "event": "100m",
+    "sport": "Athletics",
+    "category": "Men",
+    "record": { "value": 9.63, "unit": "s", "display": "9.63 s", "set_on": "2012-08-05" },
+    "athlete": { "name": "Usain Bolt", "country": "Jamaica" },
+    "games": { "year": 2012, "host_city": "London", "season": "Summer" },
+    "venue": "Olympic Stadium (London)",
+    "status": "Olympic record",
+    "wind": 0.1,
+    "notes": "Men's 100m final"
+  },
+  {
+    "event": "200m",
+    "sport": "Athletics",
+    "category": "Men",
+    "record": { "value": 19.3, "unit": "s", "display": "19.30 s", "set_on": "2008-08-20" },
+    "athlete": { "name": "Usain Bolt", "country": "Jamaica" },
+    "games": { "year": 2008, "host_city": "Beijing", "season": "Summer" },
+    "venue": "National Stadium (Beijing)",
+    "status": "Olympic record",
+    "wind": -0.9,
+    "notes": "Men's 200m final"
+  },
+  {
+    "event": "400m",
+    "sport": "Athletics",
+    "category": "Men",
+    "record": { "value": 43.03, "unit": "s", "display": "43.03 s", "set_on": "2016-08-14" },
+    "athlete": { "name": "Wayde van Niekerk", "country": "South Africa" },
+    "games": { "year": 2016, "host_city": "Rio de Janeiro", "season": "Summer" },
+    "venue": "Estadio Olimpico Nilton Santos",
+    "status": "Olympic record",
+    "notes": "Men's 400m final"
+  },
+  {
+    "event": "100m",
+    "sport": "Athletics",
+    "category": "Women",
+    "record": { "value": 10.61, "unit": "s", "display": "10.61 s", "set_on": "2021-07-31" },
+    "athlete": { "name": "Elaine Thompson-Herah", "country": "Jamaica" },
+    "games": { "year": 2020, "host_city": "Tokyo", "season": "Summer" },
+    "venue": "Olympic Stadium (Tokyo)",
+    "status": "Olympic record",
+    "wind": 0.6,
+    "notes": "Tokyo 2020 held in 2021"
+  },
+  {
+    "event": "400m hurdles",
+    "sport": "Athletics",
+    "category": "Women",
+    "record": { "value": 51.46, "unit": "s", "display": "51.46 s", "set_on": "2021-08-04" },
+    "athlete": { "name": "Sydney McLaughlin", "country": "United States" },
+    "games": { "year": 2020, "host_city": "Tokyo", "season": "Summer" },
+    "venue": "Olympic Stadium (Tokyo)",
+    "status": "Olympic record",
+    "notes": "Women's 400m hurdles final"
+  },
+  {
+    "event": "100m freestyle",
+    "sport": "Swimming",
+    "category": "Men",
+    "record": { "value": 47.02, "unit": "s", "display": "47.02 s", "set_on": "2021-07-29" },
+    "athlete": { "name": "Caeleb Dressel", "country": "United States" },
+    "games": { "year": 2020, "host_city": "Tokyo", "season": "Summer" },
+    "venue": "Tokyo Aquatics Centre",
+    "status": "Olympic record",
+    "notes": "Men's 100m freestyle final"
+  },
+  {
+    "event": "400m freestyle",
+    "sport": "Swimming",
+    "category": "Women",
+    "record": { "value": 236.46, "unit": "s", "display": "3:56.46", "set_on": "2021-07-26" },
+    "athlete": { "name": "Ariarne Titmus", "country": "Australia" },
+    "games": { "year": 2020, "host_city": "Tokyo", "season": "Summer" },
+    "venue": "Tokyo Aquatics Centre",
+    "status": "Olympic record",
+    "notes": "Women's 400m freestyle final"
+  },
+  {
+    "event": "Long jump",
+    "sport": "Athletics",
+    "category": "Women",
+    "record": { "value": 7.4, "unit": "m", "display": "7.40 m", "set_on": "1988-09-29" },
+    "athlete": { "name": "Jackie Joyner-Kersee", "country": "United States" },
+    "games": { "year": 1988, "host_city": "Seoul", "season": "Summer" },
+    "venue": "Olympic Stadium (Seoul)",
+    "status": "Olympic record",
+    "notes": "Set during Seoul 1988"
+  },
+  {
+    "event": "Triple jump",
+    "sport": "Athletics",
+    "category": "Men",
+    "record": { "value": 18.09, "unit": "m", "display": "18.09 m", "set_on": "1996-07-27" },
+    "athlete": { "name": "Kenny Harrison", "country": "United States" },
+    "games": { "year": 1996, "host_city": "Atlanta", "season": "Summer" },
+    "venue": "Centennial Olympic Stadium",
+    "status": "Olympic record",
+    "notes": "Men's triple jump final"
+  }
+]

@@ -1,0 +1,91 @@
+[
+  {
+    "common_name": "Giant sequoia",
+    "scientific_name": "Sequoiadendron giganteum",
+    "continent": "North America",
+    "native_range": { "countries": ["United States"], "biomes": ["montane forest"] },
+    "plant_type": "coniferous tree",
+    "average_height_m": 70,
+    "conservation_status": "Endangered",
+    "traits": {
+      "leaf_type": "evergreen",
+      "notable_features": ["largest tree by volume", "thick fire-resistant bark"]
+    },
+    "ecological_role": ["carbon storage", "habitat for cavity nesters"],
+    "human_uses": ["recreation", "conservation research"]
+  },
+  {
+    "common_name": "Sugar maple",
+    "scientific_name": "Acer saccharum",
+    "continent": "North America",
+    "native_range": { "countries": ["United States", "Canada"], "biomes": ["temperate broadleaf forest"] },
+    "plant_type": "deciduous tree",
+    "average_height_m": 30,
+    "conservation_status": "Least Concern",
+    "traits": {
+      "leaf_type": "deciduous",
+      "notable_features": ["brilliant autumn foliage", "sap used for maple syrup"]
+    },
+    "ecological_role": ["canopy species", "food source for pollinators"]
+  },
+  {
+    "common_name": "Saguaro cactus",
+    "scientific_name": "Carnegiea gigantea",
+    "continent": "North America",
+    "native_range": { "countries": ["United States", "Mexico"], "biomes": ["desert"] },
+    "plant_type": "succulent",
+    "average_height_m": 12,
+    "conservation_status": "Least Concern",
+    "traits": {
+      "leaf_type": "succulent stem",
+      "notable_features": ["massive water storage", "night-blooming flowers pollinated by bats"]
+    },
+    "ecological_role": ["nesting sites for birds", "desert moisture reservoir"],
+    "human_uses": ["traditional fruit harvest", "cultural symbol of Sonoran Desert"]
+  },
+  {
+    "common_name": "Kapok tree",
+    "scientific_name": "Ceiba pentandra",
+    "continent": "South America",
+    "native_range": { "countries": ["Brazil", "Peru", "Colombia", "Ecuador"], "biomes": ["tropical rainforest"] },
+    "plant_type": "emergent tree",
+    "average_height_m": 60,
+    "conservation_status": "Least Concern",
+    "traits": {
+      "leaf_type": "deciduous",
+      "notable_features": ["buttress roots", "cotton-like seed floss"]
+    },
+    "ecological_role": ["canopy emergent supporting epiphytes", "food source for bats and birds"],
+    "human_uses": ["kapok fiber for cushions", "timber in local use"]
+  },
+  {
+    "common_name": "Yerba mate",
+    "scientific_name": "Ilex paraguariensis",
+    "continent": "South America",
+    "native_range": { "countries": ["Argentina", "Paraguay", "Brazil", "Uruguay"], "biomes": ["subtropical forest"] },
+    "plant_type": "evergreen shrub",
+    "average_height_m": 10,
+    "conservation_status": "Least Concern",
+    "traits": {
+      "leaf_type": "evergreen",
+      "notable_features": ["caffeinated leaves", "shade-tolerant understory growth"]
+    },
+    "ecological_role": ["understory component", "food for insects and birds"],
+    "human_uses": ["infusion beverage", "agroforestry crop"]
+  },
+  {
+    "common_name": "Polylepis (Queuna)",
+    "scientific_name": "Polylepis tarapacana",
+    "continent": "South America",
+    "native_range": { "countries": ["Bolivia", "Peru", "Chile", "Argentina"], "biomes": ["high Andean shrubland"] },
+    "plant_type": "high-elevation tree",
+    "average_height_m": 8,
+    "conservation_status": "Near Threatened",
+    "traits": {
+      "leaf_type": "evergreen",
+      "notable_features": ["peeling multi-layered bark", "tolerance to frost and high UV"]
+    },
+    "ecological_role": ["shelter for Andean birds", "soil stabilization on slopes"],
+    "human_uses": ["fuelwood (restricted)", "habitat restoration"]
+  }
+]

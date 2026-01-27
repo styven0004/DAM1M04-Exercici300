@@ -1,0 +1,127 @@
+[
+  {
+    "title": "La Traviata",
+    "composer": { "name": "Giuseppe Verdi", "period": "Romantic" },
+    "librettist": "Francesco Maria Piave",
+    "premiere": {
+      "city": "Venice, Italy",
+      "venue": "Teatro La Fenice",
+      "date": "1853-03-06"
+    },
+    "language": "Italian",
+    "duration_min": 140,
+    "act_count": 3,
+    "notable_arias": ["Libiamo ne' lieti calici", "Sempre libera"],
+    "lead_roles": [
+      { "character": "Violetta Valery", "voice_type": "soprano" },
+      { "character": "Alfredo Germont", "voice_type": "tenor" },
+      { "character": "Giorgio Germont", "voice_type": "baritone" }
+    ],
+    "themes": ["love", "sacrifice", "social pressure"]
+  },
+  {
+    "title": "Aida",
+    "composer": { "name": "Giuseppe Verdi", "period": "Romantic" },
+    "librettist": "Antonio Ghislanzoni",
+    "premiere": {
+      "city": "Cairo, Egypt",
+      "venue": "Khedivial Opera House",
+      "date": "1871-12-24"
+    },
+    "language": "Italian",
+    "duration_min": 150,
+    "act_count": 4,
+    "notable_arias": ["Celeste Aida", "O patria mia"],
+    "lead_roles": [
+      { "character": "Aida", "voice_type": "soprano" },
+      { "character": "Radames", "voice_type": "tenor" },
+      { "character": "Amneris", "voice_type": "mezzo-soprano" },
+      { "character": "Amonasro", "voice_type": "baritone" }
+    ],
+    "themes": ["loyalty", "war", "identity"]
+  },
+  {
+    "title": "La Boheme",
+    "composer": { "name": "Giacomo Puccini", "period": "Late Romantic" },
+    "librettist": "Luigi Illica and Giuseppe Giacosa",
+    "premiere": {
+      "city": "Turin, Italy",
+      "venue": "Teatro Regio",
+      "date": "1896-02-01"
+    },
+    "language": "Italian",
+    "duration_min": 135,
+    "act_count": 4,
+    "notable_arias": ["Che gelida manina", "Mi chiamano Mimi"],
+    "lead_roles": [
+      { "character": "Mimi", "voice_type": "soprano" },
+      { "character": "Rodolfo", "voice_type": "tenor" },
+      { "character": "Musetta", "voice_type": "soprano" },
+      { "character": "Marcello", "voice_type": "baritone" }
+    ],
+    "themes": ["bohemian life", "youth", "loss"]
+  },
+  {
+    "title": "Tosca",
+    "composer": { "name": "Giacomo Puccini", "period": "Late Romantic" },
+    "librettist": "Luigi Illica and Giuseppe Giacosa",
+    "premiere": {
+      "city": "Rome, Italy",
+      "venue": "Teatro Costanzi",
+      "date": "1900-01-14"
+    },
+    "language": "Italian",
+    "duration_min": 135,
+    "act_count": 3,
+    "notable_arias": ["Vissi d'arte", "E lucevan le stelle"],
+    "lead_roles": [
+      { "character": "Floria Tosca", "voice_type": "soprano" },
+      { "character": "Mario Cavaradossi", "voice_type": "tenor" },
+      { "character": "Baron Scarpia", "voice_type": "baritone" }
+    ],
+    "themes": ["political intrigue", "faith", "betrayal"]
+  },
+  {
+    "title": "Don Giovanni",
+    "composer": { "name": "Wolfgang Amadeus Mozart", "period": "Classical" },
+    "librettist": "Lorenzo Da Ponte",
+    "premiere": {
+      "city": "Prague, Czech Republic",
+      "venue": "Estates Theatre",
+      "date": "1787-10-29"
+    },
+    "language": "Italian",
+    "duration_min": 180,
+    "act_count": 2,
+    "notable_arias": ["La ci darem la mano", "Fin ch'han dal vino"],
+    "lead_roles": [
+      { "character": "Don Giovanni", "voice_type": "baritone" },
+      { "character": "Donna Anna", "voice_type": "soprano" },
+      { "character": "Leporello", "voice_type": "bass" },
+      { "character": "Il Commendatore", "voice_type": "bass" }
+    ],
+    "themes": ["morality", "retribution", "seduction"]
+  },
+  {
+    "title": "Le nozze di Figaro",
+    "composer": { "name": "Wolfgang Amadeus Mozart", "period": "Classical" },
+    "librettist": "Lorenzo Da Ponte",
+    "premiere": {
+      "city": "Vienna, Austria",
+      "venue": "Burgtheater",
+      "date": "1786-05-01"
+    },
+    "language": "Italian",
+    "duration_min": 175,
+    "act_count": 4,
+    "notable_arias": ["Non piu andrai", "Voi che sapete"],
+    "lead_roles": [
+      { "character": "Figaro", "voice_type": "bass-baritone" },
+      { "character": "Susanna", "voice_type": "soprano" },
+      { "character": "Count Almaviva", "voice_type": "baritone" },
+      { "character": "Countess Almaviva", "voice_type": "soprano" },
+      { "character": "Cherubino", "voice_type": "mezzo-soprano" }
+    ],
+    "themes": ["class satire", "forgiveness", "love"]
+  }
+]

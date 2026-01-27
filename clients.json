@@ -1,0 +1,162 @@
+[
+  {
+    "id": "CL-ES-2024-001",
+    "name": "Laia Torres",
+    "age": 34,
+    "loyalty_level": "gold",
+    "active": true,
+    "joined": "2018-03-12",
+    "contact": {
+      "email": "laia.torres@example.com",
+      "phone": "+34-600-123-987"
+    },
+    "address": {
+      "city": "Barcelona",
+      "country": "Spain",
+      "postal_code": "08025"
+    },
+    "preferred_store": {
+      "brand": "Mercadona",
+      "location": "Avinguda Diagonal 440"
+    },
+    "purchases": [
+      {
+        "date": "2024-11-18",
+        "store": "Mercadona Diagonal",
+        "basket": [
+          { "product": "Olive oil 1L", "category": "Pantry", "quantity": 2, "price": 6.55 },
+          { "product": "Fresh salmon", "category": "Seafood", "quantity": 1, "price": 9.8 }
+        ]
+      },
+      {
+        "date": "2025-01-22",
+        "store": "Mercadona Diagonal",
+        "basket": [
+          { "product": "Barista oat milk", "category": "Dairy alternatives", "quantity": 3, "price": 1.65 },
+          { "product": "Seasonal strawberries", "category": "Produce", "quantity": 2, "price": 2.9 }
+        ]
+      }
+    ],
+    "lifetime_spend": 5820.4
+  },
+  {
+    "id": "CL-ES-2023-044",
+    "name": "Javier Lopez",
+    "age": 41,
+    "loyalty_level": "platinum",
+    "active": true,
+    "joined": "2015-09-02",
+    "contact": {
+      "email": "javier.lopez@example.com",
+      "phone": "+34-610-555-321"
+    },
+    "address": {
+      "city": "Madrid",
+      "country": "Spain",
+      "postal_code": "28013"
+    },
+    "preferred_store": {
+      "brand": "Carrefour",
+      "location": "Gran Via 2"
+    },
+    "purchases": [
+      {
+        "date": "2024-12-05",
+        "store": "Carrefour Gran Via",
+        "basket": [
+          { "product": "Organic eggs", "category": "Dairy", "quantity": 2, "price": 3.6 },
+          { "product": "Rioja crianza 2020", "category": "Beverages", "quantity": 1, "price": 8.9 }
+        ]
+      },
+      {
+        "date": "2025-02-02",
+        "store": "Carrefour online",
+        "basket": [
+          { "product": "Laundry detergent 3L", "category": "Home care", "quantity": 1, "price": 11.5 },
+          { "product": "Arborio rice 1kg", "category": "Pantry", "quantity": 3, "price": 1.95 }
+        ]
+      }
+    ],
+    "lifetime_spend": 10230.25
+  },
+  {
+    "id": "CL-PT-2022-010",
+    "name": "Sofia Mendes",
+    "age": 29,
+    "loyalty_level": "standard",
+    "active": true,
+    "joined": "2022-06-15",
+    "contact": {
+      "email": "sofia.mendes@example.com",
+      "phone": "+351-930-880-200"
+    },
+    "address": {
+      "city": "Lisbon",
+      "country": "Portugal",
+      "postal_code": "1200-289"
+    },
+    "preferred_store": {
+      "brand": "Continente",
+      "location": "Amoreiras Center"
+    },
+    "purchases": [
+      {
+        "date": "2025-01-12",
+        "store": "Continente online",
+        "basket": [
+          { "product": "Sea salt cod", "category": "Seafood", "quantity": 1, "price": 12.4 },
+          { "product": "Espresso capsules", "category": "Beverages", "quantity": 4, "price": 3.9 }
+        ]
+      },
+      {
+        "date": "2024-10-28",
+        "store": "Continente Colombo",
+        "basket": [
+          { "product": "Greek yogurt", "category": "Dairy", "quantity": 6, "price": 0.8 },
+          { "product": "Fresh kale", "category": "Produce", "quantity": 2, "price": 1.5 }
+        ]
+      }
+    ],
+    "lifetime_spend": 3450.75
+  },
+  {
+    "id": "CL-US-2021-077",
+    "name": "Daniel Wright",
+    "age": 37,
+    "loyalty_level": "gold",
+    "active": true,
+    "joined": "2019-11-09",
+    "contact": {
+      "email": "daniel.wright@example.com",
+      "phone": "+1-512-555-0199"
+    },
+    "address": {
+      "city": "Austin",
+      "country": "USA",
+      "postal_code": "73301"
+    },
+    "preferred_store": {
+      "brand": "Whole Foods Market",
+      "location": "North Lamar"
+    },
+    "purchases": [
+      {
+        "date": "2025-02-08",
+        "store": "Whole Foods North Lamar",
+        "basket": [
+          { "product": "Organic avocados", "category": "Produce", "quantity": 4, "price": 1.3 },
+          { "product": "Cold brew coffee", "category": "Beverages", "quantity": 2, "price": 4.99 }
+        ]
+      },
+      {
+        "date": "2024-09-30",
+        "store": "Amazon Fresh",
+        "basket": [
+          { "product": "Almond butter", "category": "Pantry", "quantity": 1, "price": 7.99 },
+          { "product": "Free-range chicken breast", "category": "Butcher", "quantity": 2, "price": 5.5 }
+        ]
+      }
+    ],
+    "lifetime_spend": 7988.6
+  }
+]
