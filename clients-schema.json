@@ -1,0 +1,77 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "string" },
+      "name": { "type": "string" },
+      "age": {
+        "type": "integer",
+        "minimum": 0 
+      },
+      "loyalty_level": {
+        "type": "string",
+        "enum": ["standard", "gold", "platinum"]
+      },
+      "active": { "type": "boolean" },
+      "joined": { "type": "string", "format": "date" },
+      "contact": {
+        "type": "object",
+        "properties": {
+          "email": { "type": "string", "format": "email" },
+          "phone": { "type": "string", "format": "phone" }
+        },
+        "required": ["email", "phone"],
+        "additionalProperties": false
+      },
+      "address": {
+        "type": "object",
+        "properties": {
+          "city": { "type": "string", "format": "city" },
+          "country": { "type": "string", "format": "country" },
+          "postal_code": { "type": "string", "format": "postal_code" }
+        },
+        "required": ["city", "country", "postal_code"],
+        "additionalProperties": false
+      },
+      "preferred_store": {
+        "type": "object",
+        "properties": {
+          "brand": { "type": "string" },
+          "location": { "type": "string" }
+        },
+        "required": ["brand", "location"],
+        "additionalProperties": false
+      },
+      "purchases": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "date": { "type": "string", "format": "date" },
+            "store": { "type": "string" },
+            "basket": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "product": { "type": "string" },
+                  "category": { "type": "string" },
+                  "quantity": {"type": "integer", "minimum": 1 },
+                  "price": { "type": "number", "minimum": 0 }
+                },
+                "required": ["product", "category", "quantity", "price"],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": ["date", "store", "basket"],
+          "additionalProperties": false
+        }
+      },
+      "lifetime_spend": { "type": "number", "minimum": 0 }
+    },
+    "required": ["id", "nom", "age", "loyalty_level", "active", "joined", "contact", "address"],
+    "additionalProperties": false
+  }
+}
