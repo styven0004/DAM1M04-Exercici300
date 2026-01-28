@@ -1,0 +1,69 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "common_name": { "type": "string" },
+      "scientific_name": { "type": "string" },
+      "continent": { "type": "string" },
+      "native_range": {
+        "type": "object",
+        "properties": {
+          "countries": {
+            "type": "array",
+            "items": { "type": "string" },
+            "minItems": 1
+          },
+          "biomes": {
+            "type": "array",
+            "items": { "type": "string" },
+            "minItems": 1
+          }
+        },
+        "required": ["countries", "biomes"],
+        "additionalProperties": false
+      },
+      "plant_type": { "type": "string" },
+      "average_height_m": {
+        "type": "number",
+        "minimum": 0
+      },
+      "conservation_status": { "type": "string" },
+      "traits": {
+        "type": "object",
+        "properties": {
+          "leaf_type": { "type": "string" },
+          "notable_features": {
+            "type": "array",
+            "items": { "type": "string" },
+            "minItems": 1
+          }
+        },
+        "required": ["leaf_type", "notable_features"],
+        "additionalProperties": false
+      },
+      "ecological_role": {
+        "type": "array",
+        "items": { "type": "string" },
+        "minItems": 1
+      },
+      "human_uses": {
+        "type": "array",
+        "items": { "type": "string" }
+      }
+    },
+    "required": [
+      "common_name",
+      "scientific_name",
+      "continent",
+      "native_range",
+      "plant_type",
+      "average_height_m",
+      "conservation_status",
+      "traits",
+      "ecological_role",
+      "human_uses"
+    ],
+    "additionalProperties": false
+  }
+}

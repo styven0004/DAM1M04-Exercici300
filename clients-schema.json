@@ -27,9 +27,9 @@
       "address": {
         "type": "object",
         "properties": {
-          "city": { "type": "string", "format": "city" },
-          "country": { "type": "string", "format": "country" },
-          "postal_code": { "type": "string", "format": "postal_code" }
+          "city": { "type": "string" },
+          "country": { "type": "string" },
+          "postal_code": { "type": "string" }
         },
         "required": ["city", "country", "postal_code"],
         "additionalProperties": false
