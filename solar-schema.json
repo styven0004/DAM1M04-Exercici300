@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "name",
+      "type",
+      "orbit",
+      "physical",
+      "atmosphere",
+      "satellites",
+      "discovery"
+    ],
+    "properties": {
+      "name": { "type": "string" },
+      "type": { "type": "string" },
+      "orbit": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["around", "semi_major_axis_au", "orbital_period_days"],
+        "properties": {
+          "around": { "type": "string" },
+          "semi_major_axis_au": { "type": "number" },
+          "orbital_period_days": { "type": "number" }
+        }
+      },
+      "physical": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["mean_radius_km", "mass_kg", "gravity_m_s2"],
+        "properties": {
+          "mean_radius_km": { "type": "number" },
+          "mass_kg": { "type": "number" },
+          "gravity_m_s2": { "type": "number" }
+        }
+      },
+      "atmosphere": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "satellites": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["name", "type", "mean_radius_km", "discovery"],
+          "properties": {
+            "name": { "type": "string" },
+            "type": { "type": "string" },
+            "mean_radius_km": { "type": "number" },
+            "discovery": { "type": "string" }
+          }
+        }
+      },
+      "discovery": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["discovered_by"],
+        "properties": {
+          "discovered_by": { "type": "string" },
+          "year": { "type": "integer" }
+        }
+      }
+    }
+  }
+}
