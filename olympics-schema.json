@@ -1,0 +1,47 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [ "event", "sport", "category", "record", "athlete", "games", "venue", "status", "notes" ],
+    "properties": {
+      "event": { "type": "string" },
+      "sport": { "type": "string" },
+      "category": { "type": "string" },
+      "record": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["value", "unit", "display", "set_on"],
+        "properties": {
+          "value": { "type": "number" },
+          "unit": { "type": "string" },
+          "display": { "type": "string" },
+          "set_on": { "type": "string", "format": "date" }
+        }
+      },
+      "athlete": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "country"],
+        "properties": {
+          "name": { "type": "string" },
+          "country": { "type": "string" }
+        }
+      },
+      "games": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["year", "host_city", "season"],
+        "properties": {
+          "year": { "type": "integer", "minimum": 1896 },
+          "host_city": { "type": "string" },
+          "season": { "type": "string" }
+        }
+      },
+      "venue": { "type": "string" },
+      "status": { "type": "string" },
+      "wind": { "type": "number" },
+      "notes": { "type": "string" }
+    }
+  }
+}

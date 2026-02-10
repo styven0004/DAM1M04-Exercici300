@@ -1,0 +1,66 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["title","release_year","release_date","director","runtime_min","genres","countries",
+                 "languages","box_office_usd","cast","soundtrack_by","awards","ratings"],
+    "properties": {
+      "title": { "type": "string" },
+      "release_year": { "type": "integer", "minimum": 1888 },
+      "release_date": { "type": "string", "format": "date" },
+      "director": { "type": "string" },
+      "runtime_min": { "type": "integer", "minimum": 1 },
+      "genres": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+      "countries": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+      "languages": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+      "box_office_usd": { "type": "integer", "minimum": 0 },
+      "cast": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["actor", "role"],
+          "properties": {
+            "actor": { "type": "string" },
+            "role": { "type": "string" }
+          }
+        }
+      },
+      "soundtrack_by": { "type": "string" },
+      "awards": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["oscars", "bafta"],
+        "properties": {
+          "oscars": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "bafta": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      },
+      "ratings": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["imdb", "metacritic"],
+        "properties": {
+          "imdb": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 10
+          },
+          "metacritic": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+          }
+        }
+      }
+    }
+  }
+}
