@@ -2,68 +2,56 @@
   "type": "array",
   "items": {
     "type": "object",
+    "additionalProperties": false,
+    "required": [ "common_name", "scientific_name", "continent", "native_range", "plant_type",
+                  "average_height_m", "conservation_status", "traits", "ecological_role", "human_uses" ],
     "properties": {
       "common_name": { "type": "string" },
       "scientific_name": { "type": "string" },
       "continent": { "type": "string" },
       "native_range": {
         "type": "object",
+        "additionalProperties": false,
+        "required": ["countries", "biomes"],
         "properties": {
           "countries": {
             "type": "array",
-            "items": { "type": "string" },
-            "minItems": 1
+            "minItems": 1,
+            "items": { "type": "string" }
           },
           "biomes": {
             "type": "array",
-            "items": { "type": "string" },
-            "minItems": 1
+            "minItems": 1,
+            "items": { "type": "string" }
           }
-        },
-        "required": ["countries", "biomes"],
-        "additionalProperties": false
+        }
       },
       "plant_type": { "type": "string" },
-      "average_height_m": {
-        "type": "number",
-        "minimum": 0
-      },
+      "average_height_m": { "type": "number", "minimum": 0 },
       "conservation_status": { "type": "string" },
       "traits": {
         "type": "object",
+        "additionalProperties": false,
+        "required": ["leaf_type", "notable_features"],
         "properties": {
           "leaf_type": { "type": "string" },
           "notable_features": {
             "type": "array",
-            "items": { "type": "string" },
-            "minItems": 1
+            "minItems": 1,
+            "items": { "type": "string" }
           }
-        },
-        "required": ["leaf_type", "notable_features"],
-        "additionalProperties": false
+        }
       },
       "ecological_role": {
         "type": "array",
-        "items": { "type": "string" },
-        "minItems": 1
+        "minItems": 1,
+        "items": { "type": "string" }
       },
       "human_uses": {
         "type": "array",
+        "minItems": 1,
         "items": { "type": "string" }
       }
-    },
-    "required": [
-      "common_name",
-      "scientific_name",
-      "continent",
-      "native_range",
-      "plant_type",
-      "average_height_m",
-      "conservation_status",
-      "traits",
-      "ecological_role",
-      "human_uses"
-    ],
-    "additionalProperties": false
+    }
   }
 }
