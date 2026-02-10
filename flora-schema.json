@@ -4,7 +4,7 @@
     "type": "object",
     "additionalProperties": false,
     "required": [ "common_name", "scientific_name", "continent", "native_range", "plant_type",
-                  "average_height_m", "conservation_status", "traits", "ecological_role", "human_uses" ],
+                  "average_height_m", "conservation_status", "traits", "ecological_role" ],
     "properties": {
       "common_name": { "type": "string" },
       "scientific_name": { "type": "string" },
